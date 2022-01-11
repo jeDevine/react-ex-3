@@ -11,7 +11,7 @@ const Counter = () => {
                 <p>{counter}</p>
                 <button onClick={() => setCounter(counter-1)}>Down</button>
             </div>
-            <div className="counter 2">
+            {/* <div className="counter 2">
                 <button onClick={() => setCounter2(counter2+1)}>Up</button>
                 <p>{counter2}</p>
                 <button onClick={() => setCounter2(counter2-1)}>Down</button>
@@ -20,7 +20,7 @@ const Counter = () => {
                 <button onClick={() => setCounter3(counter3+1)}>Up</button>
                 <p>{counter3}</p>
                 <button onClick={() => setCounter3(counter3-1)}>Down</button>
-            </div>
+            </div> */}
         </div>
     );
 }
